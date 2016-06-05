@@ -217,7 +217,7 @@ mv a.out swarm
 
 
 
-2b. Compile lispswarm using Chicken Scheme:
+2b. Compile swarm using Chicken Scheme:
 
 csc -O5 -r5rs-syntax -local -no-argc-checks -no-bound-checks -no-procedure-checks -u -uses extras -o swarm schemeswarm20160602_small_instincts.scm
 
