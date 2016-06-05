@@ -294,7 +294,7 @@ Open a terminal and change to your selected directory.
 
 hail thee hail thee hail thee
 
-4. Wait... (Four to six hours would not be unusual. - In bigger systems you will need to wait for a WEEK or longer!)
+4. Wait... (It may come after just some 10 minutes in this early experiment. But in actual operation our to six hours would not be unusual. - In bigger systems you will need to wait for a WEEK or longer!)
 
 5. Read the reply (the machine should have deduced that "hail thee" is a proper response), and GOTO 3. The reply will often be empty or nothing - you are, after all, meeting an entity that KNOWS ABSOLUTELY NOTHING YET. It will need considerable patience to teach it to converse. Sometimes, "dropping" the conversation and retrying is the best solution if it behaves strangely. As I said under I., this system is experimental. (In case you are curious "where the knowledge is, have a look at swarmdata.txt in any one of the pupae, specifically, those which have been used in interaction.) 
 
@@ -327,8 +327,6 @@ H. Contact
 Have fun and let me know what you think:
 
 https://groups.google.com/forum/#!forum/de-larvis-computationis
-
-Next thing I'll show you will be the Fortran version of this. (Historically, it is the second version made.)
 
 Historically, this Scheme version was the first one created. It has been autonomously learning and creating the knowledgebases in doctaepupae.tar.gz for nearly two years (on an AMD FX-8350 with 32 GB RAM, using RAM up to 96% practically all the time).
 
