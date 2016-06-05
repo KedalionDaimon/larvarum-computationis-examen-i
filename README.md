@@ -310,15 +310,17 @@ from a terminal in the selected directory.
 
 G. Pupae
 
-You will notice also the file doctaepupae.tar.gz.
+Optionally, an archive, doctaepupae.tar.gz, containing a pre-trained swarm, can be created like this:
+
+cat doctaepupae_tar_gz_* > doctaepupae.tar.gz
 
 It contains a swarm of thirty pre-trained knowledge bases, each of them individual. You can use any one of the contained "swarmdata.txt"-files as knowledge bases of the system. You will notice that the contents are not pairs of "(nihil . nihil)" as in the default "swarmdata.txt", but actually fully pre-filled knowledge bases of which each can used as a starting point.
 
-If you wish, you can actually unpack doctaepupae.tar.gz in your chosen directory and use the pupae therein directly as "swarm". All you need to do is to issue:
+If you wish, you can actually unpack doctaepupae.tar.gz in your chosen directory and use the pupae therein directly as "swarm", directly. All you need to do is to issue:
 
 ./relink.sh
 
-after compiling the "swarm" executable, so that it is linked into each of the insects (see above IV.E.2).
+after compiling the "swarm" executable, so that it is linked into each of the insects (see above IV.E.2). (In other words, you do NOT use ./soloqueen.sh, but INSTEAD OF IT, you use ./relink.sh. You DO NOT "generate" a swarm with soloqueen.sh if you use the PREMADE swarm of doctaepupae.tar.gz, or you will lose the knowledge bases contained therein, which soloqueen.sh would overwrite.)
 
 
 
